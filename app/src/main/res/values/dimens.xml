@@ -7,4 +7,5 @@
 
     <dimen name="tamanioTitulo">20sp</dimen>
     <dimen name="marginHomeSubtitulo">10dp</dimen>
+    <dimen name="tamanioSubtitulo">15sp</dimen>
 </resources>
