@@ -8,4 +8,7 @@
     <dimen name="tamanioTitulo">20sp</dimen>
     <dimen name="marginHomeSubtitulo">10dp</dimen>
     <dimen name="tamanioSubtitulo">15sp</dimen>
+
+    <dimen name="itemScheduleTitulo">30sp</dimen>
+    <dimen name="itemScheduleSubTitulo">20sp</dimen>
 </resources>
