@@ -1,4 +1,4 @@
-package com.platzi.conf.ui.fragments
+package com.platzi.conf.view.ui.fragments
 
 
 import android.os.Bundle
@@ -12,14 +12,14 @@ import com.platzi.conf.R
 /**
  * A simple [Fragment] subclass.
  */
-class UbicationFragment : Fragment() {
+class HomeFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ubication, container, false)
+        return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
 
