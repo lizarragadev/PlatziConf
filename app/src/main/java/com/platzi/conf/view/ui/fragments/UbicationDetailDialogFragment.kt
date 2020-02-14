@@ -12,13 +12,9 @@ import com.platzi.conf.R
 /**
  * A simple [Fragment] subclass.
  */
-class UbicationDetailDialogFragment : Fragment() {
+class UbicationDetailDialogFragment : Fragment(){
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_ubication_detail_dialog, container, false)
     }
 
