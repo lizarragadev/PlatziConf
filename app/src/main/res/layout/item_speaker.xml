@@ -9,16 +9,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
         <!--
         Adiciona el atributo ID a cada elemento
         -->
         <ImageView
             android:id="@+id/ivItemSpeakerImage"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/altoImageViewHome"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:src="@mipmap/ic_launcher"
-            android:layout_margin="10dp"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"/>
         <TextView
             android:id="@+id/tvItemSpeakerName"
             android:layout_width="match_parent"
