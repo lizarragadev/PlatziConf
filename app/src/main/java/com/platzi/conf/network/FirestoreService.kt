@@ -31,6 +31,7 @@ class FirestoreService {
 
     fun getSchedule(callback: Callback<List<Conference>>) {
         firebaseFirestore.collection(CONFERENCES_COLLECTION_NAME)
+            .orderBy("datetime")
             .get()
             .addOnSuccessListener { result ->
                 for (doc in result) {
